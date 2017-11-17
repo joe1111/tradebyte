@@ -12,7 +12,7 @@ use Plenty\Plugin\Log\Loggable;
 class PropertyHelper
 {
     use Loggable;
-    const LENANDO_DE = 116.00;
+    const TRADEBYTE_DE = 12.00;
     const PROPERTY_TYPE_TEXT = 'text';
     const PROPERTY_TYPE_SELECTION = 'selection';
     const PROPERTY_TYPE_EMPTY = 'empty';
@@ -81,7 +81,7 @@ class PropertyHelper
                     $property['property']['valueType'] != 'file')
                 {
                     $propertyName = $this->propertyNameRepository->findOne($property['property']['id'], $lang);
-                    $propertyMarketReference = $this->propertyMarketReferenceRepository->findOne($property['property']['id'], self::LENANDO_DE);
+                    $propertyMarketReference = $this->propertyMarketReferenceRepository->findOne($property['property']['id'], self::TRADEBYTE_DE);
                     // For tradebyte we have the property as a Checkbox, so the External Component doesn't exist,
                     // giving that empty type property cannot be accepted and it will be skipped. Also will be skipped
                     // a property which is not found or which doesn't have a property name and property market reference association

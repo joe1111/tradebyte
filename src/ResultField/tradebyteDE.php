@@ -40,7 +40,7 @@ class tradebyteDE extends ResultFields
 
 {
 
-    const LENANDO_DE = 116.00;
+    const TRADEBYTE_DE = 116.00;
 
 
 
@@ -94,7 +94,7 @@ class tradebyteDE extends ResultFields
 
 
 
-        $reference = $settings->get('referrerId') ? $settings->get('referrerId') : self::LENANDO_DE;
+        $reference = $settings->get('referrerId') ? $settings->get('referrerId') : self::TRADEBYTE_DE;
 
 
 

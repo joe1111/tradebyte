@@ -25,15 +25,15 @@ class tradebyteDE extends CSVPluginGenerator
     use Loggable;
 	
 	
-	const RAKUTEN_DE = 106.00;
+    const RAKUTEN_DE = 106.00;
     const PROPERTY_TYPE_ENERGY_CLASS       = 'energy_efficiency_class';
     const PROPERTY_TYPE_ENERGY_CLASS_GROUP = 'energy_efficiency_class_group';
     const PROPERTY_TYPE_ENERGY_CLASS_UNTIL = 'energy_efficiency_class_until';
 	
 	
-	const CHARACTER_TYPE_ENERGY_EFFICIENCY_CLASS	= 'energy_efficiency_class';
+    const CHARACTER_TYPE_ENERGY_EFFICIENCY_CLASS	= 'energy_efficiency_class';
 	
-    const LENANDO_DE = 116.00;
+    const TRADEBYTE_DE = 12.00;
     const DELIMITER = ";";
 	
     const STATUS_VISIBLE = 1;
