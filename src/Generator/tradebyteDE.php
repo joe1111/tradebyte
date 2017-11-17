@@ -421,7 +421,7 @@ class tradebyteDE extends CSVPluginGenerator
 	//		'Eigenschaft1'			=> '',
 	//		'Familienname2'			=> '',
 	//		'Eigenschaft2'			=> '',
-	//		'ID'					=> $variation['id'],
+			'ID'					=> $variation['id'],
 	//		'Einheit'				=> $basePriceComponentList['unit'], //$unit,
 	//		'Inhalt'				=> strlen($basePriceComponentList['unit']) ? number_format((float)$basePriceComponentList['content'],3,',','') : '', //$basePriceList['lot'],
 	//		'Freifeld1'				=> $variation['data']['item']['free1'],
